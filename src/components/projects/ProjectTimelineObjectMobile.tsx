@@ -28,7 +28,7 @@ function ProjectTimelineObjectMobile(props: ProjectTimelineObjectMobileProps) {
                     </a>)}
                 <div className="row mt-5 mb-3">
                     {props.img.map((content, index) =>
-                        <img key={index} src={content.url} alt={content.alt} className="project-img-mobile rounded-3 bg-green-2 p-1 m-1" />
+                        <img key={index} src={content.url} alt={content.alt} className="project-img-mobile rounded-3 bg-green-1 p-1 m-1" />
                     )}
                 </div>
             </div>
