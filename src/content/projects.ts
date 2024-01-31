@@ -4,7 +4,7 @@ export const projects = [
         name: 'Jedipw: My personal web portfolio',
         date: 'January 2024',
         description: 'Jedipw is my first personal web portfolio designed to showcase my skills, projects, awards, and provide my contact information. This project allows me to brush up on React.js, as well as learn how to deploy the website on Google Cloud Platform.',
-        tools: 'React.js, TypeScript',
+        tools: 'React.js, TypeScript, Bootstrap',
         jumpIdDesktop: "jedipw-desktop",
         jumpIdMobile: "jedipw-mobile",
         img: [
@@ -32,7 +32,7 @@ export const projects = [
         id: 2,
         name: 'PayStation: AI Mobile App for Stationery Items Detection and Payment at KMUTT Bookstore',
         date: 'August 2023 - January 2024',
-        description: 'PayStation is a mobile application project developed as part of CSC345 Artificial Intelligence coursework. This project is a group project completed by 5 students. It is an AI mobile application that enables KMUTT Bookstore customers to take pictures of 20 different types of stationery items. The system will automatically generate the payment bills, allowing customers to pay for those items conveniently! Through my involvement in this project, I gained practical knowledge of the machine learning process. This encompasses tasks such as data collection, data preprocessing/augmentation, model training, utilizing MongoDB as the database, and integrating the machine learning model with both the frontend and backend systems.',
+        description: 'PayStation is a mobile application project developed as part of CSC340 Artificial Intelligence coursework. This project is a group project completed by 5 students. It is an AI mobile application that enables KMUTT Bookstore customers to take pictures of 20 different types of stationery items. The system will automatically generate the payment bills, allowing customers to pay for those items conveniently! Through my involvement in this project, I gained practical knowledge of the machine learning process. This encompasses tasks such as data collection, data preprocessing/augmentation, model training, utilizing MongoDB as the database, and integrating the machine learning model with both the frontend and backend systems.',
         tools: 'Flutter, Express.js, TypeScript, MongoDB, YoloV8',
         jumpIdDesktop: "paystation-desktop",
         jumpIdMobile: "paystation-mobile",
@@ -77,7 +77,7 @@ export const projects = [
         name: 'Store Sales - Time Series Forecasting: Use machine learning to predict grocery sales',
         date: 'August 2023 - December 2023',
         description: 'Store Sales - Time Series Forecasting is a Kaggle competition that I took with a team of 5 members as part of CSC345 Data Science coursework. The goal is to build a machine learning model that can accurately predicts the unit sales for thousands of items sold at different Favorita stores. This project allows me to gain basic skills in data visualization with PowerBI, as well as to perform data preprocessing and data modeling with various models, such as LightGBM, CatBoostRegressor, XGBRegressor, K-NearestRegressor, etc.',
-        tools: 'Kaggle Notebook, Python, NumPy, Pandas, Scikit-learn, Darts',
+        tools: 'Python, NumPy, Pandas, Scikit-learn',
         jumpIdDesktop: "store-sales-desktop",
         jumpIdMobile: "store-sales-mobile",
         img: [
@@ -101,7 +101,7 @@ export const projects = [
         name: 'HealJai: Mobile App for Anonymous Consultation with Psychiatrists',
         date: 'April 2023 - June 2023',
         description: 'HealJai is a partially functional mobile application project developed as part of CSC291 Computer Science Integrated Project II. This project is a group project completed by six students. The application will allow users to consult with psychiatrists anonymously using the real-time group chat system. One user can consult with multiple psychiatrists simultaneously. This project has enabled me to gain basic knowledge of Socket.io, learn how to connect the back-end system with Flutter, acquire skills in UX/UI design using Figma, and learn how to deploy the backend on an Azure virtual machine.',
-        tools: 'Kaggle Notebook, Python, NumPy, Pandas, Scikit-learn, Darts',
+        tools: 'Flutter, Express.js, JavaScript, Firebase, Socket.io',
         jumpIdDesktop: "healjai-desktop",
         jumpIdMobile: "healjai-mobile",
         img: [
