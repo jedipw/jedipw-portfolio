@@ -1,6 +1,6 @@
 # jedipw-portfolio
 
-My First Web Portfolio to showcase my skills, projects, and awards
+My first web portfolio to showcase my skills, projects, and awards
 
 ## Technology Stacks
 **Programming Language:** TypeScript
