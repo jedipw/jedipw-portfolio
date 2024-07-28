@@ -40,9 +40,19 @@ export const skills = [
                 name: "React.js"
             },
             {
-                imgUrl: "/icons/bootstrap.png",
-                alt: "bootstrap",
-                name: "Bootstrap"
+                imgUrl: "/icons/next.png",
+                alt: "next",
+                name: "Next.js"
+            },
+            {
+                imgUrl: "/icons/dotnet.png",
+                alt: "dotnet",
+                name: ".NET"
+            },
+            {
+                imgUrl: "/icons/flask.png",
+                alt: "flask",
+                name: "Flask"
             }
         ]
     },
@@ -74,6 +84,16 @@ export const skills = [
                 imgUrl: "/icons/cplusplus.png",
                 alt: "c-plus-plus",
                 name: "C++"
+            },
+            {
+                imgUrl: "/icons/csharp.png",
+                alt: "c-sharp",
+                name: "C#"
+            },
+            {
+                imgUrl: "/icons/go.png",
+                alt: "go",
+                name: "Go"
             }
         ]
     },
@@ -85,6 +105,11 @@ export const skills = [
                 imgUrl: "/icons/flutter.png",
                 alt: "flutter",
                 name: "Flutter"
+            },
+            {
+                imgUrl: "/icons/kotlin.png",
+                alt: "kotlin",
+                name: "Kotlin"
             }
         ]
     },
@@ -121,37 +146,6 @@ export const skills = [
     },
     {
         id: 6,
-        name: 'AI & Data Science',
-        description: [
-            {
-                imgUrl: "/icons/yolo.png",
-                alt: "yolo",
-                name: "YoloV8"
-            },
-            {
-                imgUrl: "/icons/roboflow.png",
-                alt: "roboflow",
-                name: "Roboflow"
-            },
-            {
-                imgUrl: "/icons/pandas.png",
-                alt: "pandas",
-                name: "Pandas"
-            },
-            {
-                imgUrl: "/icons/numpy.png",
-                alt: "numpy",
-                name: "Numpy"
-            },
-            {
-                imgUrl: "/icons/scikitlearn.png",
-                alt: "sklearn",
-                name: "Scikit-learn"
-            },
-        ]
-    },
-    {
-        id: 7,
         name: 'Development Software',
         description: [
             {
@@ -165,6 +159,16 @@ export const skills = [
                 name: "DataGrip"
             },
             {
+                imgUrl: "/icons/rider.png",
+                alt: "rider",
+                name: "Rider"
+            },
+            {
+                imgUrl: "/icons/android_studio.png",
+                alt: "android-studio",
+                name: "Android Studio"
+            },
+            {
                 imgUrl: "/icons/postman.png",
                 alt: "postman",
                 name: "Postman"
@@ -174,13 +178,18 @@ export const skills = [
                 alt: "github-desktop",
                 name: "GitHub Desktop"
             },
-            
+
         ]
     },
     {
-        id: 8,
-        name: 'Others',
+        id: 7,
+        name: 'Infrastructure & Deployment',
         description: [
+            {
+                imgUrl: "/icons/docker.png",
+                alt: "docker",
+                name: "Docker"
+            },
             {
                 imgUrl: "/icons/azure.png",
                 alt: "azure",
@@ -191,6 +200,12 @@ export const skills = [
                 alt: "googlecloud",
                 name: "Google Cloud"
             },
+        ]
+    },
+    {
+        id: 8,
+        name: 'Others',
+        description: [
             {
                 imgUrl: "/icons/shell.png",
                 alt: "shell",
@@ -200,6 +215,11 @@ export const skills = [
                 imgUrl: "/icons/figma.png",
                 alt: "figma",
                 name: "Figma"
+            },
+            {
+                imgUrl: "/icons/jira.png",
+                alt: "jira",
+                name: "Jira"
             },
             {
                 imgUrl: "/icons/photoshop.png",
@@ -212,5 +232,5 @@ export const skills = [
                 name: "Premiere Pro"
             },
         ]
-    }
+    },
 ];
