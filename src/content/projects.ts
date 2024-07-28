@@ -30,6 +30,66 @@ export const projects = [
     },
     {
         id: 2,
+        name: 'BakingUp: Smart Bakery Management for Home Bakery Business',
+        date: 'January 2024 - Present',
+        description: 'BakingUp is a mobile application developed as part of the CSC498-CSC499 Computer Science developed as part of the CSC498-CSC499 Computer Science Capstone Project. This project is a group project completed by 3 students. The goal of this project is to help facilitate home bakery entrepreneurs and begineer bakers in accurately calculating production costs, setting optimal pricing for products, tracking inventory efficiently with the help of OCR technology, and minimizing waste',
+        tools: 'Flutter, Go, PostgreSQL, GitHub Actions, Gemini API',
+        jumpIdDesktop: "bakingup-desktop",
+        jumpIdMobile: "bakingup-mobile",
+        img: [
+            {
+                url: '/images/bakingup_1.png',
+                alt: "bakingup-1"
+            },
+            {
+                url: '/images/bakingup_2.png',
+                alt: "bakingup-2"
+            },
+            {
+                url: '/images/bakingup_3.png',
+                alt: "bakingup-3"
+            },
+            {
+                url: '/images/bakingup_4.png',
+                alt: "bakingup-4"
+            },
+            {
+                url: '/images/bakingup_5.png',
+                alt: "bakingup-5"
+            },
+            {
+                url: '/images/bakingup_6.png',
+                alt: "bakingup-6"
+            },
+            {
+                url: '/images/bakingup_7.png',
+                alt: "bakingup-7"
+            },
+            {
+                url: '/images/bakingup_8.png',
+                alt: "bakingup-8"
+            },
+            {
+                url: '/images/bakingup_9.png',
+                alt: "bakingup-9"
+            },
+        ],
+        imgPattern: [
+            3, 3, 3
+        ],
+        link: [
+            {
+                url: 'https://github.com/BakingUp/BakingUp-Frontend',
+                buttonName: 'View Repository (Frontend)'
+            },
+            {
+                url: 'https://github.com/BakingUp/BakingUp-Backend',
+                buttonName: 'View Repository (Backend)'
+            }
+        ]
+    },
+    {
+        id: 3,
         name: 'PayStation: AI Mobile App for Stationery Items Detection and Payment at KMUTT Bookstore',
         date: 'August 2023 - January 2024',
         description: 'PayStation is a mobile application project developed as part of CSC340 Artificial Intelligence coursework. This project is a group project completed by 5 students. It is an AI mobile application that enables KMUTT Bookstore customers to take pictures of 20 different types of stationery items. The system will automatically generate the payment bills, allowing customers to pay for those items conveniently! Through my involvement in this project, I gained practical knowledge of the machine learning process. This encompasses tasks such as data collection, data preprocessing/augmentation, model training, utilizing MongoDB as the database, and integrating the machine learning model with both the frontend and backend systems.',
@@ -73,7 +133,7 @@ export const projects = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: 'Store Sales - Time Series Forecasting: Use machine learning to predict grocery sales',
         date: 'August 2023 - December 2023',
         description: 'Store Sales - Time Series Forecasting is a Kaggle competition that I took with a team of 5 members as part of CSC345 Data Science coursework. The goal is to build a machine learning model that can accurately predicts the unit sales for thousands of items sold at different Favorita stores. This project allows me to gain basic skills in data visualization with PowerBI, as well as to perform data preprocessing and data modeling with various models, such as LightGBM, CatBoostRegressor, XGBRegressor, K-NearestRegressor, etc.',
@@ -97,7 +157,7 @@ export const projects = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: 'HealJai: Mobile App for Anonymous Consultation with Psychiatrists',
         date: 'April 2023 - June 2023',
         description: 'HealJai is a partially functional mobile application project developed as part of CSC291 Computer Science Integrated Project II. This project is a group project completed by six students. The application will allow users to consult with psychiatrists anonymously using the real-time group chat system. One user can consult with multiple psychiatrists simultaneously. This project has enabled me to gain basic knowledge of Socket.io, learn how to connect the back-end system with Flutter, acquire skills in UX/UI design using Figma, and learn how to deploy the backend on an Azure virtual machine.',
@@ -133,7 +193,7 @@ export const projects = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: 'ModSport: Mobile App for Workout Facility Reservation at KMUTT',
         date: 'March 2023 - June 2023',
         description: 'ModSport is a mobile application project developed as part of CSC231 Agile Software Engineering and CSC234 User-Centered Mobile Application Development coursework. This project is a group project completed by 6 students. The primary objective of ModSport is to provide users with a seamless and user-friendly platform for reserving sports facilities in KMUTT Bangmod Campus. Users can browse through the available facilities, check their availability, and secure their reservations with just a few taps on their mobile devices. ModSport also empowers the sports facility staff members. They have the ability to disable reservations for specific sport facilities when they are temporarily unavailable to the public. This project allowed me to gain more front-end development skills using Flutter, work with Cloud Firestore and Firebase Cloud Messaging, collaborate in an Agile environment, and enhance my project management abilities.',
@@ -185,7 +245,7 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: 'Modlifes: A social web application for KMUTT students',
         date: 'August 2022 - December 2022',
         description: 'Modlife is a web application project developed as part of CSC290 Computer Science Integrated Project I. This project is a group project completed by every CS22 student, with each group divided into subgroups of three people. Each group is responsible for creating one module, which contains several features on the web page. The web application contains many features that can enhance students\' life at KMUTT, such as writing personal blogs, making announcements, shopping, writing short notes, etc.I was responsible as a team leader of Dating Module which is a module that allows students to find new friends based on their age, gender, faculty preferences, or activities they want to join, inspired by Tinder. This project provided me with the opportunity to acquire skills in both front-end and back-end development, as well as expertise in database schema design, wireframe design, and API documentation design.',
