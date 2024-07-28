@@ -9,6 +9,14 @@ export const other_projects = [
     },
     {
         id: 2,
+        name: 'PayStation',
+        description: 'Self-checkout mobile application for stationery items at KMUTT Bookstore',
+        imageUrl: 'images/paystation.png',
+        jumpIdDesktop: 'paystation-desktop',
+        jumpIdMobile: 'paystation-mobile'
+    },
+    {
+        id: 3,
         name: 'HealJai',
         description: 'Consult with psychiatrists anywhere, anytime, and anonymously.',
         imageUrl: 'images/healjai.png',
@@ -16,7 +24,7 @@ export const other_projects = [
         jumpIdMobile: 'healjai-mobile'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Jedipw',
         description: 'Personal web portfolio to showcase my skills, projects, and awards',
         imageUrl: 'images/web_port.png',
@@ -24,7 +32,7 @@ export const other_projects = [
         jumpIdMobile: 'jedipw-mobile'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Predict Store Sales',
         description: 'Use machine learning to predict grocery sales (Time Series Forecasting)',
         imageUrl: 'images/store_sales.png',

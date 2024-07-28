@@ -17,10 +17,10 @@ export const featured_projects = [
     },
     {
         id: 3,
-        name: 'PayStation',
-        description: 'Self-checkout for stationery items at KMUTT Bookstore',
-        imageUrl: 'images/paystation.png',
-        jumpIdDesktop: 'paystation-desktop',
-        jumpIdMobile: 'paystation-mobile'
+        name: 'PII Data Detector',
+        description: 'Detect and remove PII from educational data',
+        imageUrl: 'images/pii.png',
+        jumpIdDesktop: 'pii-desktop',
+        jumpIdMobile: 'pii-mobile'
     },
 ];
