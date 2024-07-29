@@ -67,7 +67,7 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
                     This website serves as a platform to showcase my skills, projects, and awards.
                     If you have any questions or would like to collaborate with me, please feel free to reach out.
                 </div>
-                <div className="d-flex justify-content-center pt-5">
+                <div className="d-none d-md-flex justify-content-center pt-5">
                     <button
                         type="button"
                         className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white p-2"
@@ -75,6 +75,32 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
                     >
                         Contact Me
                         <i className="fa-regular fa-paper-plane ms-2"></i>
+                    </button>
+                    <button
+                        type="button"
+                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-2"
+                        onClick={() => { window.open("https://github.com/jedipw") }}
+                    >
+                        My GitHub Profile
+                        <i className="fa-brands fa-github ms-2"></i>
+                    </button>
+                </div>
+                <div className="d-flex d-md-none justify-content-center pt-5">
+                    <button
+                        type="button"
+                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white p-2"
+                        onClick={() => this.scrollToContact()}
+                    >
+                        Contact
+                        <i className="fa-regular fa-paper-plane ms-2"></i>
+                    </button>
+                    <button
+                        type="button"
+                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-2"
+                        onClick={() => { window.open("https://github.com/jedipw") }}
+                    >
+                        GitHub
+                        <i className="fa-brands fa-github ms-2"></i>
                     </button>
                 </div>
             </div>
