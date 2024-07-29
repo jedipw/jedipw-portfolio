@@ -25,19 +25,14 @@ export const skills = [
                 name: "CSS"
             },
             {
-                imgUrl: "/icons/nodejs.png",
-                alt: "node-js",
-                name: "Node.js"
-            },
-            {
                 imgUrl: "/icons/express.png",
                 alt: "express",
-                name: "Express.js"
+                name: "Express"
             },
             {
                 imgUrl: "/icons/react.png",
                 alt: "react",
-                name: "React.js"
+                name: "React"
             },
             {
                 imgUrl: "/icons/next.png",
