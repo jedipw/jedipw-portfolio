@@ -1,6 +1,7 @@
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { ProjectTimelineObjectMobileProps } from '../../types';
+import ProjectTimelineImageMobile from './ProjectTimelineImageMobile';
 
 function ProjectTimelineObjectMobile(props: ProjectTimelineObjectMobileProps) {
     const ref = useRef(null);
@@ -28,7 +29,7 @@ function ProjectTimelineObjectMobile(props: ProjectTimelineObjectMobileProps) {
                     </a>)}
                 <div className="row mt-5 mb-3">
                     {props.img.map((content, index) =>
-                        <img key={index} src={content.url} alt={content.alt} className="project-img-mobile rounded-3 bg-green-1 p-1 m-1" />
+                        <ProjectTimelineImageMobile url={content.url} alt={content.alt} />
                     )}
                 </div>
             </div>

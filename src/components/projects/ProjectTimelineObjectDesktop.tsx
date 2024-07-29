@@ -1,6 +1,7 @@
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { ProjectTimelineObjectDesktopProps } from '../../types';
+import ProjectTimelineImageDesktop from './ProjectTimelineImageDesktop';
 
 function ProjectTimelineObjectDesktop(props: ProjectTimelineObjectDesktopProps) {
     const ref = useRef(null);
@@ -35,11 +36,12 @@ function ProjectTimelineObjectDesktop(props: ProjectTimelineObjectDesktopProps) 
                         return (
                             <div key={rowIndex} className="container-fluid d-flex justify-content-center">
                                 {[...Array(count)].map((_, colIndex) => (
-                                    <img
+                                    <ProjectTimelineImageDesktop
                                         key={colIndex}
-                                        src={props.img[startIndex + colIndex].url}
-                                        alt={props.img[startIndex + colIndex].alt}
-                                        className={`project-img-${count} rounded-3 m-3`}
+                                        startIndex={startIndex}
+                                        colIndex={colIndex}
+                                        img={props.img}
+                                        count={count}
                                     />
                                 ))}
                             </div>
