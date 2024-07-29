@@ -39,5 +39,12 @@ export const other_projects = [
         jumpIdDesktop: 'store-sales-desktop',
         jumpIdMobile: 'store-sales-mobile'
     },
-
+    {
+        id: 6,
+        name: 'Sentiment Analysis',
+        description: 'Analyze tweets sentiment and classify spam tweets using machine learning',
+        imageUrl: 'images/tweets.png',
+        jumpIdDesktop: 'tweets-desktop',
+        jumpIdMobile: 'tweets-mobile'
+    }
 ];
