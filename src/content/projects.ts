@@ -4,7 +4,7 @@ export const projects = [
         name: 'Personally Identifiable Information (PII) Data Detector',
         date: 'February 2024 - May 2024',
         description: 'The Personally Identifiable Information (PII) Data Detector is an individual machine learning project developed as part of the CSC532 Machine Learning course. The goal of this project is to detect personally identifiable information (PII) in student writing using machine learning techniques. Additionally, a web application was developed with machine learning integration to allow users to write text, and the system will identify PII automatically.',
-        tools: 'Next.js, Go, Flask, TypeScript, Python, PostgreSQL, Docker, Firebase, Google Cloud Run, GitHub Actions',
+        tools: 'Next.js, Go, Flask, TypeScript, Python, PostgreSQL, Docker, Firebase, Cloud Run, GitHub Actions',
         jumpIdDesktop: "pii-desktop",
         jumpIdMobile: "pii-mobile",
         img: [
@@ -64,7 +64,7 @@ export const projects = [
         name: 'Jedipw: My personal web portfolio',
         date: 'January 2024',
         description: 'Jedipw is my first personal web portfolio designed to showcase my skills, projects, awards, and provide my contact information. This project allows me to brush up on React.js, as well as learn how to deploy the website on Google Cloud Platform.',
-        tools: 'React.js, TypeScript, Bootstrap',
+        tools: 'React, TypeScript, Bootstrap',
         jumpIdDesktop: "jedipw-desktop",
         jumpIdMobile: "jedipw-mobile",
         img: [
@@ -153,7 +153,7 @@ export const projects = [
         name: 'PayStation: AI Mobile App for Stationery Items Detection and Payment at KMUTT Bookstore',
         date: 'August 2023 - January 2024',
         description: 'PayStation is a mobile application project developed as part of CSC340 Artificial Intelligence coursework. This project is a group project completed by 5 students. It is an AI mobile application that enables KMUTT Bookstore customers to take pictures of 20 different types of stationery items. The system will automatically generate the payment bills, allowing customers to pay for those items conveniently! Through my involvement in this project, I gained practical knowledge of the machine learning process. This encompasses tasks such as data collection, data preprocessing/augmentation, model training, utilizing MongoDB as the database, and integrating the machine learning model with both the frontend and backend systems.',
-        tools: 'Flutter, Express.js, TypeScript, MongoDB, YoloV8',
+        tools: 'Flutter, Express, TypeScript, MongoDB, YoloV8',
         jumpIdDesktop: "paystation-desktop",
         jumpIdMobile: "paystation-mobile",
         img: [
@@ -221,7 +221,7 @@ export const projects = [
         name: 'HealJai: Mobile App for Anonymous Consultation with Psychiatrists',
         date: 'April 2023 - June 2023',
         description: 'HealJai is a partially functional mobile application project developed as part of CSC291 Computer Science Integrated Project II. This project is a group project completed by six students. The application will allow users to consult with psychiatrists anonymously using the real-time group chat system. One user can consult with multiple psychiatrists simultaneously. This project has enabled me to gain basic knowledge of Socket.io, learn how to connect the back-end system with Flutter, acquire skills in UX/UI design using Figma, and learn how to deploy the backend on an Azure virtual machine.',
-        tools: 'Flutter, Express.js, JavaScript, Firebase, Socket.io',
+        tools: 'Flutter, Express, JavaScript, Firebase, Socket.io',
         jumpIdDesktop: "healjai-desktop",
         jumpIdMobile: "healjai-mobile",
         img: [
@@ -309,7 +309,7 @@ export const projects = [
         name: 'Modlifes: A social web application for KMUTT students',
         date: 'August 2022 - December 2022',
         description: 'Modlife is a web application project developed as part of CSC290 Computer Science Integrated Project I. This project is a group project completed by every CS22 student, with each group divided into subgroups of three people. Each group is responsible for creating one module, which contains several features on the web page. The web application contains many features that can enhance students\' life at KMUTT, such as writing personal blogs, making announcements, shopping, writing short notes, etc.I was responsible as a team leader of Dating Module which is a module that allows students to find new friends based on their age, gender, faculty preferences, or activities they want to join, inspired by Tinder. This project provided me with the opportunity to acquire skills in both front-end and back-end development, as well as expertise in database schema design, wireframe design, and API documentation design.',
-        tools: 'React.js, TypeScript, Express.js, PostgreSQL',
+        tools: 'React, TypeScript, Express, PostgreSQL',
         jumpIdDesktop: "modlifes-desktop",
         jumpIdMobile: "modlifes-mobile",
         img: [
