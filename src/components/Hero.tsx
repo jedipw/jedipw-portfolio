@@ -78,7 +78,7 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
                     </button>
                     <button
                         type="button"
-                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-2"
+                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-3"
                         onClick={() => { window.open("https://github.com/jedipw") }}
                     >
                         My GitHub Profile
@@ -96,7 +96,7 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
                     </button>
                     <button
                         type="button"
-                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-2"
+                        className="btn roboto-bold green-3 contact-button fs-5 rounded-4 bg-white ms-3"
                         onClick={() => { window.open("https://github.com/jedipw") }}
                     >
                         GitHub
