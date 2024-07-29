@@ -10,4 +10,4 @@ My first web portfolio to showcase my skills, projects, and awards
 - **Hosting:** Google Cloud Run
 
 ## Screenshot
-![webport_page](https://github.com/jedipw/jedipw-portfolio/assets/82791342/ced3f2bd-e74c-4a7f-b99b-751ce8fd5368)
+![webport_page](https://github.com/user-attachments/assets/604e9a61-07f6-45d9-a539-84015dd0abf2)
