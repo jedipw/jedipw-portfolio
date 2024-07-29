@@ -45,9 +45,9 @@ export const skills = [
                 name: "Next.js"
             },
             {
-                imgUrl: "/icons/dotnet.png",
-                alt: "dotnet",
-                name: ".NET"
+                imgUrl: "/icons/dotnet_core.png",
+                alt: "dotnet_core",
+                name: ".NET Core"
             },
             {
                 imgUrl: "/icons/flask.png",
