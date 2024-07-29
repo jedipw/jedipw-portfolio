@@ -24,6 +24,18 @@ export const awards = [
     },
     {
         id: 3,
+        name: 'The Jia Ra Nai Petchra Scholarship Award in Academic Excellence (Honorary Certificate, 2021)',
+        date: 'January 2023',
+        description: 'Received an honorary certificate for achieving the highest cumulative grade and attaining the first rank among students in the same major.',
+        img: [
+            {
+                url: '/images/jia_ra.jpg',
+                alt: "jia-ra"
+            }
+        ]
+    },
+    {
+        id: 4,
         name: 'SIT Academic Excellence Award (2022)',
         date: 'September 2022',
         description: 'Awarded a scholarship by my faculty for achieving excellent academic performance and engaging in academic volunteer activities.',
