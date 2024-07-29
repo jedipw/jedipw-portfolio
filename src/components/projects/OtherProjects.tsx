@@ -11,7 +11,7 @@ function OtherProjects() {
         <div className="d-flex justify-content-center align-items-center">
             <ProjectDescription>
                 These are some additional projects I have developed that enable me to enhance my skills in web development,
-                mobile application development, and data science.
+                mobile application development, AI development, and data science.
             </ProjectDescription>
         </div>
         <div className="container">

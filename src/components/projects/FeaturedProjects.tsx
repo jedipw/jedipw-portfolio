@@ -11,7 +11,7 @@ function FeaturedProject() {
         <div className="d-flex justify-content-center align-items-center">
             <ProjectDescription>
                 These three projects hold a special place for me!
-                They provide me with the opportunity to acquire expertise in web development, mobile application development, and AI development.
+                They provide me with the opportunity to acquire expertise in web development, mobile application development, and machine learning.
                 If you're curious to delve deeper, feel free to hit the "Jump" button and explore further.
             </ProjectDescription>
         </div>
