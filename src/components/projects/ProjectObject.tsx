@@ -1,8 +1,10 @@
 import { useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { ProjectObjectProps } from '../../types';
 
 function ProjectObject(props: ProjectObjectProps) {
+    const [loaded, setIsLoaded] = useState(false);
+    const imageStyle = !loaded ? { display: "none" } : {}
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -40,7 +42,8 @@ function ProjectObject(props: ProjectObjectProps) {
             }}>
                 <div className="grid-container">
                     <div className="image-container">
-                        <img alt={props.name} src={props.imageUrl} className="project-image rounded-top-5" />
+                        {!loaded && <div className="project-image-loading rounded-top-5" />}
+                        <img alt={props.name} src={props.imageUrl} className="project-image rounded-top-5" onLoad={() => setIsLoaded(true)} style={imageStyle} />
                     </div>
                     <div className="content-container">
                         <div className="p-3">

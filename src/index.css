@@ -66,6 +66,12 @@
     box-shadow: 0 4px 10px -8px gray;
 }
 
+.project-image-loading {
+    width: 300;
+    height: 225px;
+    background-color: #79AC78;
+}
+
 .project-image {
     width: 300px;
     height: 225px;
