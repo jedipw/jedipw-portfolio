@@ -57,3 +57,18 @@ export type AwardObjectProps = {
         alt: string
     }[]
 }
+
+export type ProjectTimelineImageDesktopProps = {
+    img: {
+        url: string;
+        alt: string;
+    }[];
+    count: number;
+    startIndex: number;
+    colIndex: number;
+}
+
+export type ProjectTimelineImageMobileProps = {
+    url: string;
+    alt: string;
+}
