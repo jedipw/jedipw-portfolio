@@ -72,3 +72,13 @@ export type ProjectTimelineImageMobileProps = {
     url: string;
     alt: string;
 }
+
+export type AwardImageDesktopProps = {
+    url: string;
+    alt: string;
+}
+
+export type AwardImageMobileProps = {
+    url: string;
+    alt: string;
+}

@@ -1,6 +1,7 @@
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { AwardObjectProps } from "../../types";
+import AwardImageDesktop from "./AwardImageDesktop";
 
 function AwardObjectDesktop(props: AwardObjectProps) {
     const ref = useRef(null);
@@ -22,7 +23,9 @@ function AwardObjectDesktop(props: AwardObjectProps) {
                     <div className="row bg-green-4 p-3 rounded-5 award-box mt-4 mb-4">
                         <div className="container-fluid d-md-flex justify-content-center">
                             {props.img.map((content, index) =>
-                                <img key={index} src={content.url} alt={content.alt} className="award-img rounded-5 m-2" />)
+                                <AwardImageDesktop key={index}
+                                    url={content.url}
+                                    alt={content.alt} />)
                             }
                         </div>
                     </div>

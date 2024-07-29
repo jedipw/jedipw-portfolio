@@ -1,6 +1,7 @@
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { AwardObjectProps } from "../../types";
+import AwardImageMobile from "./AwardImageMobile";
 
 function AwardObjectMobile(props: AwardObjectProps) {
     const ref = useRef(null);
@@ -21,7 +22,9 @@ function AwardObjectMobile(props: AwardObjectProps) {
                 {props.img.length > 0 && (
                     <div className="row">
                         {props.img.map((content, index) =>
-                            <img key={index} src={content.url} alt={content.alt} className="award-img-mobile bg-green-4 rounded-3 p-1 m-1" />)
+                            <AwardImageMobile key={index}
+                                url={content.url}
+                                alt={content.alt} />)
                         }
                     </div>
                 )}
