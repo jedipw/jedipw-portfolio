@@ -7,7 +7,7 @@ function SkillsImage(props: SkillsImageProps) {
 
     return (
         <>
-            {!loaded && <div className="skills-icon-loading rounded-3" />}
+            {!loaded && <div className="skills-icon-loading rounded-3 d-flex justify-content-center align-items-center"><img src="/icons/loading.png" alt="loading" width={30} height={30} /></div>}
             <img
                 src={props.url}
                 alt={props.alt}

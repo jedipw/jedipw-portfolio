@@ -37,7 +37,7 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
         return <div id="hero" className="container-fluid min-vh d-flex justify-content-center align-items-center p-5">
             <div className="row hero-div pt-5">
                 <div className="container-fluid d-flex align-items-center mb-5">
-                    {!loaded && <div className="profile-pic-loading" />}
+                    {!loaded && <div className="profile-pic-loading d-flex justify-content-center align-items-center" ><img src="/icons/loading.png" alt="loading" width={50} height={50}/></div>}
                     <img src="/images/profile.png" alt="profilePic" className="profile-pic" onLoad={this.handleImageLoaded.bind(this)} style={imageStyle} />
                     <div className="ps-3">
                         <motion.div
