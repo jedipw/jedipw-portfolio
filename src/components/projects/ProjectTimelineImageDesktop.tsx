@@ -6,15 +6,13 @@ function ProjectTimelineImageDesktop(props: ProjectTimelineImageDesktopProps) {
     const imageStyle = !loaded ? { display: "none" } : {}
 
     return (
-        <>
-            <img
-                src={props.img[props.startIndex + props.colIndex].url}
-                alt={props.img[props.startIndex + props.colIndex].alt}
-                className={`project-img-${props.count} rounded-3 m-3`}
-                onLoad={() => setIsLoaded(true)}
-                style={imageStyle}
-            />
-        </>
+        <img
+            src={props.img[props.startIndex + props.colIndex].url}
+            alt={props.img[props.startIndex + props.colIndex].alt}
+            className={`project-img-${props.count} rounded-3 m-3`}
+            onLoad={() => setIsLoaded(true)}
+            style={imageStyle}
+        />
     );
 }
 
