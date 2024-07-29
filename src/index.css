@@ -116,6 +116,13 @@
     object-fit: contain;
 }
 
+.skills-icon-loading {
+    width: 50px;
+    height: 50px;
+    background-color: #6C757D;
+    object-fit: contain;
+}
+
 .hero-div {
     max-width: 600px;
 }

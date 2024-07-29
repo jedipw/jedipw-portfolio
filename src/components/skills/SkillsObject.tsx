@@ -1,6 +1,7 @@
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { SkillsObjectProps } from '../../types';
+import SkillsImage from './SkillsImage';
 
 function SkillsObject(props: SkillsObjectProps) {
     const ref = useRef(null);
@@ -17,7 +18,11 @@ function SkillsObject(props: SkillsObjectProps) {
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-2">
                     {props.description.map((content, index) =>
                         <div key={index} className="d-flex mb-3 skills-description align-items-center">
-                            <img src={content.imgUrl} alt={content.alt} className="skills-icon rounded-3"></img>
+                            <SkillsImage
+                                key={index}
+                                url={content.imgUrl}
+                                alt={content.alt}
+                            />
                             <p className="roboto-bold fs-5 ms-3 align-self-end">{content.name}</p>
                         </div>)}
                 </div>

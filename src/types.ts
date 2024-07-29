@@ -82,3 +82,8 @@ export type AwardImageMobileProps = {
     url: string;
     alt: string;
 }
+
+export type SkillsImageProps = {
+    url: string;
+    alt: string;
+}
