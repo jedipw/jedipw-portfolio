@@ -2,8 +2,8 @@ export const contact = [
     {
         id: 1,
         name: 'Email',
-        value: 'pawinnak2@gmail.com',
-        link: 'mailto:pawinnak2@gmail.com',
+        value: 'pawin.nakvisai@gmail.com',
+        link: 'mailto:pawin.nakvisai@gmail.com',
         icon: 'fa-regular fa-envelope'
     },
     {
