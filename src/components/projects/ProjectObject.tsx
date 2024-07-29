@@ -42,7 +42,7 @@ function ProjectObject(props: ProjectObjectProps) {
             }}>
                 <div className="grid-container">
                     <div className="image-container">
-                        {!loaded && <div className="project-image-loading rounded-top-5 d-flex justify-content-center align-items-center"><img src="/icons/loading.png" alt="loading" width={100} height={100} /></div>}
+                        {!loaded && <div className="project-image-loading rounded-top-5 d-flex justify-content-center align-items-center"><img src="/icons/loading.gif" alt="loading" width={100} height={100} /></div>}
                         <img alt={props.name} src={props.imageUrl} className="project-image rounded-top-5" onLoad={() => setIsLoaded(true)} style={imageStyle} />
                     </div>
                     <div className="content-container">
