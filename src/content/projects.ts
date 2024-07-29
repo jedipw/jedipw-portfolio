@@ -64,7 +64,7 @@ export const projects = [
         id: 3,
         name: 'BakingUp: Smart Bakery Management for Home Bakery Business',
         date: 'January 2024 - Present',
-        description: 'BakingUp is a mobile application developed as part of the CSC498-CSC499 Computer Science developed as part of the CSC498-CSC499 Computer Science Capstone Project. This project is a group project completed by 3 students. The goal of this project is to help facilitate home bakery entrepreneurs and begineer bakers in accurately calculating production costs, setting optimal pricing for products, tracking inventory efficiently with the help of OCR technology, and minimizing waste',
+        description: 'BakingUp is a mobile application currently being developed as part of the CSC498-CSC499 Computer Science Capstone Project. This project is a group project completed by 3 students. The goal of this project is to help facilitate home bakery entrepreneurs and begineer bakers in accurately calculating production costs, setting optimal pricing for products, tracking inventory efficiently with the help of OCR technology, and minimizing waste',
         tools: 'Flutter, Go, PostgreSQL, GitHub Actions, Gemini API',
         jumpIdDesktop: "bakingup-desktop",
         jumpIdMobile: "bakingup-mobile",
