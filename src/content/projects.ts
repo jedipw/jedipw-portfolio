@@ -98,7 +98,7 @@ export const projects = [
         jumpIdMobile: "bakingup-mobile",
         img: [
             {
-                url: '/images/bakingup_1.gif',
+                url: '/images/bakingup_1.png',
                 alt: "bakingup-1"
             },
             {
@@ -125,13 +125,9 @@ export const projects = [
                 url: '/images/bakingup_7.png',
                 alt: "bakingup-7"
             },
-            {
-                url: '/images/bakingup_8.png',
-                alt: "bakingup-8"
-            },
         ],
         imgPattern: [
-            1, 1, 1, 1, 1, 1, 1, 1
+            1, 1, 1, 1, 1, 1, 1
         ],
         link: [
             {
