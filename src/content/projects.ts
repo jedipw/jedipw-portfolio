@@ -91,14 +91,14 @@ export const projects = [
     {
         id: 4,
         name: 'BakingUp: Smart Bakery Management for Home Bakery Business',
-        date: 'January 2024 - Present',
-        description: 'BakingUp is a mobile application currently being developed as part of the CSC498-CSC499 Computer Science Capstone Project. This project is a group project completed by 3 students. The goal of this project is to help facilitate home bakery entrepreneurs and begineer bakers in accurately calculating production costs, setting optimal pricing for products, tracking inventory efficiently with the help of OCR technology, and minimizing waste',
-        tools: 'Flutter, Go, PostgreSQL, GitHub Actions, Gemini API',
+        date: 'January 2024 - December 2024',
+        description: 'BakingUp is a mobile application developed as part of the CSC498-CSC499 Computer Science Capstone Project. This project is a group project completed by 3 students. The goal of this project is to help facilitate home bakery entrepreneurs and begineer bakers in accurately calculating production costs, setting optimal pricing for products, tracking inventory efficiently with the help of OCR technology, and minimizing waste.',
+        tools: 'Flutter, Go, PostgreSQL, Python, Flask, GitHub Actions, Gemini API',
         jumpIdDesktop: "bakingup-desktop",
         jumpIdMobile: "bakingup-mobile",
         img: [
             {
-                url: '/images/bakingup_1.png',
+                url: '/images/bakingup_1.gif',
                 alt: "bakingup-1"
             },
             {
@@ -129,13 +129,9 @@ export const projects = [
                 url: '/images/bakingup_8.png',
                 alt: "bakingup-8"
             },
-            {
-                url: '/images/bakingup_9.png',
-                alt: "bakingup-9"
-            },
         ],
         imgPattern: [
-            3, 3, 3
+            1, 1, 1, 1, 1, 1, 1, 1
         ],
         link: [
             {
@@ -145,6 +141,10 @@ export const projects = [
             {
                 url: 'https://github.com/BakingUp/BakingUp-Backend',
                 buttonName: 'View Repository (Backend)'
+            },
+            {
+                url: 'https://github.com/BakingUp/BakingUp-ReceiptScanner',
+                buttonName: 'View Repository (Receipt Scanner)'
             }
         ]
     },

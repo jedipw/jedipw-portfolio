@@ -61,8 +61,7 @@ class Hero extends React.Component<{}, { loaded: boolean }> {
 
                 </div>
                 <div className="roboto-regular fs-5">
-                    I am currently a computer science graduate student at the School of Information Technology, KMUTT,
-                    and a full-stack software engineer intern at Agoda.
+                    I am a computer science graduate student at the School of Information Technology, KMUTT.
                     My passion lies in website and mobile application development, along with a keen interest in data science.
                     This website serves as a platform to showcase my skills, projects, and awards.
                     If you have any questions or would like to collaborate with me, please feel free to reach out.

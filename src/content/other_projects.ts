@@ -1,11 +1,11 @@
 export const other_projects = [
     {
         id: 1,
-        name: 'BakingUp',
-        description: 'Smart Bakery Management for Home Bakery Business (Work In Progress)',
-        imageUrl: 'images/bakingup.png',
-        jumpIdDesktop: 'bakingup-desktop',
-        jumpIdMobile: 'bakingup-mobile',
+        name: 'PII Data Detector',
+        description: 'A web application to detect and remove PII from educational data',
+        imageUrl: 'images/pii.png',
+        jumpIdDesktop: 'pii-desktop',
+        jumpIdMobile: 'pii-mobile'
     },
     {
         id: 2,
